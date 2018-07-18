@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Deine Arbeitsstunden</string>
+    <string name="startdate">Bitte geben Sie ein Startdatum ein</string>
+    <string name="date">tt.mm.jjjj</string>
+    <string name="enddate">Bitte geben Sie ein Enddatum ein</string>
+    <string name="calculate">Errechne die Arbeitsstunden</string>
+    <string name="info">noch nicht durchgeführt</string>
+    <string name="filename">Dateiname eingeben</string>
+    <string name="save">Speichern</string>
+    <string name="holidaysDefault">
+Die Feiertage von Braunschweig sind als Standard ausgewählt.</string>
+    <string name="holidaysFor">Sie haben die Feiertage vom Standort</string>
+    <string name="holidaysSelected"> ausgewählt</string>
+    <string name="checkFormat">Bitte kontrolliere das Format der Daten und versuchen Sie es
+        erneut</string>
+    <string name="checkTextFormat">Kontrollieren Sie das Format von Ihren Daten in dem
+        Dateinamen</string>
+    <string name="dateAfter">Bitte beachte: das Enddatum muss nach dem Startdatum liegen!</string>
+    <string name="days">Tage</string>
+    <string name="fileSaved">Die Datei wurde gespeichert</string>
+    <string name="permissions">Sie haben nicht die benötigten Rechte diese Datei zu speichern!</string>
+    <string name="checkDetails"> Speichern nicht möglich, überprüfen Sie ihre Daten.</string>
+    <string name="overwriteFileExists">Die Datei ist bereits vorhanden. Möchten Sie überschreiben?</string>
+    <string name="yes">ja</string>
+    <string name="no">nein</string>
+    <string name="differentFilename">Gebe einen anderen Dateinamen ein.</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="navigation_drawer_open">öffne navigation drawer</string>
+    <string name="navigation_drawer_close">schließe navigation drawer</string>
+    <string name="hello">Hallo,</string>
+    <string name="activity">bitte wählen Sie ein Aktivität aus.</string>
+    <string name="welcome">Willkommen!</string>
+    <string name="dateintervall">Kalkuliere die Arbeitsstunden</string>
+    <string name="holidays">Feiertagseinstellungen</string>
+    <string name="welcomeText">In dieser App können Sie Ihre Arbeitsstunden eines Datumintervalles
+        (ausgeschlossen von Wochenendtagen, Feiertagen sowie Ihren Urlaubstagen) errechen. Die zu
+        beachtenden Feiertage können sie nach Ihrem Standort auf der Feiertagseinstellungen-Seite auswählen,
+        Tage hinzufügen und auch Feiertage löschen. Sie können zwischen Mitarbeitern
+        wählen, Mitarbeiter hinzufügen und löschen. Mitarbeiter können ihre individuellen
+        Urlaubstage hinzufügen.</string>
+    <string name="nav_heading">Auswahl</string>
+    <string name="selected">Wählen Sie die Feiertage für Ihren Standort</string>
+    <string name="addholiday">Feiertag hinzufügen</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="name">Name von dem Feiertag</string>
+    <string name="dateText">Datum von dem Feiertag</string>
+    <string name="added">Der Feiertag wurde hinzugefügt.</string>
+    <string name="deleteholiday"> Lösch den Feiertag</string>
+    <string name="holidayNameNeeded">Bitte geben Sie einen Namen für den Feiertag ein.</string>
+    <string name="database">Datenbank</string>
+    <string name="files">Dateien</string>
+    <string name="employee">Mitarbeiter</string>
+    <string name="add">Hinzufügen</string>
+    <string name="addemployee">Mitarbeiter hinzufügen</string>
+    <string name="newemployee">Neuer Mitarbeiter</string>
+    <string name="addImage">Bild hinzufügen</string>
+    <string name="change">ändern</string>
+    <string name="uploadPic">Bild hochladen</string>
+    <string name="howSetPic">Wie willst du dein Bild einstellen?</string>
+    <string name="gallery">"Galerie"</string>
+    <string name="camera">Kamera</string>
+    <string name="employeenumber">Mitarbeiternummer</string>
+    <string name="firstname">Vorname</string>
+    <string name="lastname">Nachname</string>
+    <string name="workinghours">Arbeitsstunden pro Woche</string>
+    <string name="role">Rolle</string>
+    <string name="employeemanager">Mitarbeiterverwaltung</string>
+    <string name="deleteEmployee">Mitarbeiter löschen</string>
+    <string name="delete">Löschen</string>
+    <string name="deleteEmpQuest">Möchten Sie den ausgewählten Mitarbeiter löschen?</string>
+    <string name="checkEmployeeNumber">Bitte überprüfen Sie die Mitarbeiternummer, die von
+        Ihnen angegebene Nummer ist bereits vergeben</string>
+    <string name="empholiday">Mitarbeiter Urlaub</string>
+    <string name="hours">Stunden</string>
+    <string name="deleteEmpHoliday">Lösche den Urlaubstag</string>
+</resources>

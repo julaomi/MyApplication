@@ -1,0 +1,13 @@
+[
+	{"date":"01.01.2018", "holidayname":"Neujahr"},
+	{"date":"30.03.2018",	"holidayname":"Karfreitag"},
+	{"date":"02.04.2018",	"holidayname":"Ostermontag"},
+	{"date":"01.05.2018",	"holidayname":"TagDerArbeit"},
+	{"date":"10.05.2018",	"holidayname":"ChristiHimmelfahrt"},
+	{"date":"21.05.2018", "holidayname":"Pfingstmontag"},
+	{"date":"03.10.2018",	"holidayname":"TagDerDeutschenEinheit"},
+	{"date":"24.12.2018",	"holidayname":"Heiligabend"},
+	{"date":"25.12.2018",	"holidayname":"1.Weihnachtstag"},
+	{"date":"26.12.2018",	"holidayname":"2.Weihnachtstag"},
+	{"date":"31.12.2018",	"holidayname":"Silvester"}
+]

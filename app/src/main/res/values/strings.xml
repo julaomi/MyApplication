@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Your working hours</string>
+    <string name="startdate">Please Enter Start date</string>
+    <string name="date">dd.mm.yyyy</string>
+    <string name="enddate">Please Enter End date</string>
+    <string name="calculate">Calculate the workinghours</string>
+    <string name="info">not done yet</string>
+    <string name="filename">enter filename</string>
+    <string name="save">to save</string>
+    <string name="holidaysDefault">
+Holidays from Braunschweig are selected by default.</string>
+    <string name="holidaysFor">You have the holidays from the location </string>
+    <string name="holidaysSelected"> selected</string>
+    <string name="checkFormat">Please check the format of the data and try typing</string>
+    <string name="checkTextFormat">Check the format of your data in your text file</string>
+    <string name="dateAfter">Please note: the end date must be after the start date!</string>
+    <string name="days">days</string>
+    <string name="fileSaved">The file has been saved</string>
+    <string name="permissions">you do not have the necessary permissions to save this file!</string>
+    <string name="checkDetails">Can not save, check your details.</string>
+    <string name="overwriteFileExists">The file alredy exists, do you want to overwrite it?</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="differentFilename">Try a differend filename.</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="hello">Hello,</string>
+    <string name="activity">please select an activity.</string>
+    <string name="welcome">Welcome!</string>
+    <string name="dateintervall">Calculate the workinghours</string>
+    <string name="holidays">Holiday setting</string>
+    <string name="welcomeText">In this app you can set your working hours of a date calculatedIntervalTV
+        (excluded from weekends, public holidays and holidays). The public holidays, you can select them based on your location on the holiday settings page,
+        Add days and also delete holidays. You can work between employees
+        select, add and delete employees. Employees can choose their individual
+        Add holidays.</string>
+    <string name="nav_heading">Selection</string>
+    <string name="selected">Choose the holidays for your location</string>
+    <string name="addholiday">add holiday</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="name">name of holiday</string>
+    <string name="dateText">Date of holiday</string>
+    <string name="added">The holiday has been added.</string>
+    <string name="deleteholiday"> delete this holiday </string>
+    <string name="holidayNameNeeded">Please enter a name for the holiday.</string>
+    <string name="database">database</string>
+    <string name="files">files</string>
+    <string name="employee">employee</string>
+    <string name="add">add</string>
+    <string name="addemployee">add employee</string>
+    <string name="newemployee">New employee</string>
+    <string name="addImage">add image</string>
+    <string name="change">to change</string>
+    <string name="uploadPic">Upload Picture</string>
+    <string name="howSetPic">How do you want to set your picture?</string>
+    <string name="gallery">"Gallery"</string>
+    <string name="camera">Camera</string>
+    <string name="employeenumber">Employee number</string>
+    <string name="firstname">Firstname</string>
+    <string name="lastname">Lastname</string>
+    <string name="workinghours">Working hours per week</string>
+    <string name="role">role</string>
+    <string name="employeemanager">employee management</string>
+    <string name="delete">delete</string>
+    <string name="deleteEmployee">Mitarbeiter löschen</string>
+    <string name="deleteEmpQuest">Do you want to delete the selected employee?</string>
+    <string name="checkEmployeeNumber">Please check the employee number provided by
+        The number you have specified is already taken</string>
+    <string name="empholiday">Employeeholiday</string>
+    <string name="hours"> hours</string>
+    <string name="deleteEmpHoliday">Delete this holiday</string>
+    <string name="calculation_in_progress">Das Interval wird berechnet...</string>
+    <string name="default_date_format">dd.MM.yyyy</string>
+</resources>

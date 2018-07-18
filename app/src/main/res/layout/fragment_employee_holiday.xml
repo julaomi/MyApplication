@@ -1,0 +1,89 @@
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.tadje.myapplication.ui.EmployeeHolidayFragment">
+
+        <!-- TODO: Update blank fragment layout -->
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/fragment_container_add"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/employeeText"
+                android:layout_width="wrap_content"
+                android:layout_height="21dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="24dp"
+                android:text="Suche den Urlaub von einem Mitarbeiter"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_chainStyle="spread" />
+
+            <Spinner
+                android:id="@+id/spinnerEmployee"
+                android:layout_width="174dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="104dp"
+                android:layout_marginTop="12dp"
+                android:background="@color/colorPaleVioltRed"
+                android:entries="@android:drawable/ic_menu_myplaces"
+                android:visibility="visible"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/employeeText" />
+
+
+            <TextView
+                android:id="@+id/textViewEHButton"
+                android:layout_width="135dp"
+                android:layout_height="41dp"
+                android:layout_marginBottom="28dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Füge Urlaubstage ein"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/addEmployeeHolidayButton"
+                app:layout_constraintTop_toBottomOf="@+id/recyclerviewEmployee"
+                app:layout_constraintVertical_bias="0.597" />
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerviewEmployeeHoliday"
+                android:layout_width="347dp"
+                android:layout_height="333dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:scrollbars="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.6"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/spinnerEmployee"
+                app:layout_constraintVertical_bias="0.128" />
+
+            <Button
+                android:id="@+id/addEmployeeHolidayButton"
+                android:layout_width="30dp"
+                android:layout_height="28dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/buttonshape"
+                android:text="+"
+                android:textColor="@color/colorwhite"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/recyclerviewEmployeeHoliday" />
+
+        </android.support.constraint.ConstraintLayout>
+    </FrameLayout>

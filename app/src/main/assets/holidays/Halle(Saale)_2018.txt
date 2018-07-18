@@ -1,0 +1,13 @@
+01.01.2018;Neujahr
+06.01.2018;Heilige Drei K&ouml;nige
+30.03.2018;Karfreitag
+02.04.2018;Ostermontag
+01.05.2018;Tag der Arbeit
+10.05.2018;Christi Himmelfahrt
+21.05.2018;Pfingstmontag
+03.10.2018;Tag der Deutschen Einheit
+01.11.2018;Allerheiligen
+24.12.201;Heiligabend
+25.12.2018;1.Weihnachtstag
+26.12.2018;2.Weihnachtstag
+31.12.2018;Silvester

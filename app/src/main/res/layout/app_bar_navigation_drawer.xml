@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/paleVioletRedLigth"
+                app:popupTheme="@style/AppTheme.PopupOverlay"
+                tools:layout_editor_absoluteX="225dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/deleteFAB"
+        android:layout_width="43dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        android:tint="@color/lightbluegrey"
+        android:visibility="invisible"
+        app:backgroundTint="@color/paleVioletRedLighter"
+        app:layout_anchor="@+id/FABLayout"
+        app:layout_anchorGravity="right|top"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.015"
+        app:rippleColor="@color/paleVioletRedLigth"
+        app:srcCompat="@drawable/ic_delete_black_48dp"
+        tools:ignore="MissingConstraints,NotSibling"
+        tools:layout_editor_absoluteX="284dp" />
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/content_navigation_drawer" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/FABLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.design.widget.CoordinatorLayout>
